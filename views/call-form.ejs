@@ -1,0 +1,56 @@
+<div id="contact_form">
+    <form method="post" id="call_form2" name="call_form2" enctype="multipart/form-data">
+        <div class="contact_form_content contact_form_fields">
+
+            <input type="hidden" name="call_form_key" id="call_form_key" value="">
+            <input type="hidden" name="call_form_ym" id="call_form_ym" value="">
+            <input type="hidden" name="call_form_name" id="call_form_name" value="">
+            <input type="hidden" name="result_calculate" id="result_calculate" value="">
+            <input type="hidden" name="call_subject" id="call_subject" value="Заявка с сайта <?php echo $_SERVER['HTTP_HOST']; ?>">
+            <input type="hidden" name="call_utm" id="call_utm" value="<?php echo reformat_utm(); ?>">
+            <!--textarea name="comment" id="comment"></textarea-->
+
+            <div class="form_header">
+                <div class="form_header_text"><h2 class="text_2" id="form_title">Связаться</h2></div>
+                <div class="form_header_button button_form_close"><img src="../images/close.gif" alt="Закрыть" title="Закрыть"/></div>
+            </div>
+
+            <div class="form_inputs">
+
+                <div id="form_message" style="display: none;"></div>
+                <div id="div_call_firstname"><input type="text" class="cf_input" name="call_firstname" id="call_firstname" value="" placeholder="Имя"></div>
+                <div id="div_call_phone"><input type="tel" autocorrect="off" autocomplete="tel" class="cf_input" name="call_phone" id="call_phone" value="" placeholder="Телефон"></div>
+
+                <div id="div_call_file" class="wrapper html5-progress-bar">
+                    <div class="progress-bar-wrapper">
+                        <!--div id="file-name"></div-->
+                        <div><input type="file" class="cf_input" onchange="getFileName();" name="call_file" id="call_file" value="" placeholder="Файл"></div>
+                        <progress id="progressbar" width="500px" value="0" max="100"></progress>
+                        <div id="totval"></div>
+                        <div id="load"></div>
+                        <div id="pole"><span id="saces">Не закрывайте форму до окончания загрузки!</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cf_line">
+                <div class="text_3" id="form_agreement1">Отправляя форму, даю согласие на обработку своих персональных данных в соответствии с Федеральным законом "О персональных данных" от 27.07.2006 №152-Ф3</div>
+                <div id="call_submitPlace">
+                    <button id="call_submit" class="button button_color_2 uppercase button_send_message" style="display: block;">отправить</button>
+                    <div id="call_nosubmit" class="button button_color_4 button_send_message" style="display: none;">отправить</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact_form_content contact_form_result" style="display: none;">
+            <div class="form_header clear">
+                <div class="form_header_text"></div>
+                <div class="form_header_button button_form_close"><img src="" alt="Закрыть" title="Закрыть"/></div>
+            </div>
+            <div class="contact_form_result_message text_base"></div>
+        </div>
+
+    </form>
+</div>

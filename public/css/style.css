@@ -1,0 +1,566 @@
+@charset "UTF-8";
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+nav ul a,
+nav .brand-logo {
+  color: #444; }
+
+p {
+  line-height: 2rem; }
+
+.sidenav-trigger {
+  color: #26a69a; }
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9); }
+
+.parallax-container .section {
+  width: 100%; }
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%; }
+
+  #index-banner .section {
+    top: 10%; } }
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0; } }
+.icon-block {
+  padding: 0 15px; }
+
+.icon-block .material-icons {
+  font-size: inherit; }
+
+footer.page-footer {
+  margin: 0; }
+
+nav {
+  height: 150px;
+  padding: 20px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  overflow: visible; }
+
+.band {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+
+.block-center-1 {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.block-left-1 {
+  margin-right: 10px; }
+
+.block-right-1 {
+  margin-left: 10px; }
+
+.mb-1 {
+  margin-bottom: 20px; }
+
+#contact_form, #form_summ_block {
+  display: none;
+  background: #ffffff;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  width: 100%;
+  max-width: 500px; }
+
+.contact_form_content {
+  width: 80%;
+  padding: 10%; }
+
+.button_form_close {
+  cursor: pointer; }
+
+.link_form_close {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.form_header {
+  margin-bottom: 20px;
+  margin-top: -20px;
+  width: 100%;
+  display: flex; }
+
+.form_header_text {
+  width: 100%;
+  margin: auto;
+  margin-left: 0; }
+
+.form_header_text h2 {
+  margin: 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0; }
+
+.form_header_button {
+  width: 20px;
+  margin: auto;
+  margin-right: 0; }
+
+.form_header_button img {
+  width: 100%; }
+
+.form_inputs {
+  width: 100%; }
+
+#glass {
+  position: fixed;
+  z-index: 9000;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none; }
+
+.recaptcha_place1 {
+  display: block; }
+
+.recaptcha_place2 {
+  display: none; }
+
+#div_call_file {
+  display: none; }
+
+.cf_input {
+  margin-bottom: 15px; }
+
+.contact_form_fields .cf_line {
+  width: 100%; }
+
+.contact_form_fields .cf_line .text_3 {
+  font-size: 12px;
+  margin-bottom: 20px; }
+
+#call_submitPlace {
+  display: flex; }
+
+#call_submit {
+  background: white;
+  width: 50%;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white; }
+
+.button_send_message {
+  margin: auto; }
+
+#form_message {
+  width: calc(100% - 100px);
+  margin: 10px 0px 20px;
+  font-size: 16px; }
+
+#contact_form input[type="text"], #contact_form input[type="tel"], #contact_form input[type="number"] {
+  width: 100%; }
+
+#form_summ_block .form_inputs .form_inputs_txt {
+  font-size: 20px;
+  margin-top: -20px; }
+#form_summ_block .form_inputs input {
+  margin: 20px auto; }
+#form_summ_block .button_send_message {
+  margin-right: 0; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_about {
+  background: white; }
+  .block_about .band {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .block_about_left, .block_about_right {
+    width: 50%;
+    height: 100%; }
+  .block_about_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .block_about_title {
+    float: left;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase; }
+  .block_about_description {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600; }
+
+.band {
+  z-index: 100; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_about_company {
+  background-size: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/background-about-block.jpg");
+  background-repeat: no-repeat; }
+  .block_about_company_title {
+    color: #4f1010;
+    width: 100%;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px; }
+    .block_about_company_title span {
+      margin-top: 10px;
+      font-size: 28px;
+      color: white; }
+  .block_about_company_inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px; }
+    .block_about_company_inputs_name, .block_about_company_inputs_phone, .block_about_company_inputs_btn {
+      width: 33%;
+      height: 3rem; }
+      .block_about_company_inputs_name input, .block_about_company_inputs_phone input, .block_about_company_inputs_btn input {
+        width: 100%;
+        height: 100%;
+        background: white;
+        color: white;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        padding: 10px; }
+      .block_about_company_inputs_name button, .block_about_company_inputs_phone button, .block_about_company_inputs_btn button {
+        background: #4f1010;
+        color: white;
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-weight: 700; }
+  .block_about_company_blocks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr; }
+  .block_about_company_block {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 30px 15px;
+    max-width: 200px;
+    text-align: center; }
+    .block_about_company_block_img img {
+      width: 50px;
+      height: 50px;
+      display: block;
+      margin: auto;
+      margin-bottom: 20px; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_price-list {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #f1f1f1; }
+  .block_price-list b {
+    display: block;
+    margin-top: 10px; }
+  .block_price-list_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px; }
+  .block_price-list_blocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .block_price-list_block {
+    position: relative;
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box; }
+    .block_price-list_block_title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .block_price-list_block_img_1 {
+      grid-area: A;
+      width: 100%; }
+    .block_price-list_block_img_2 {
+      grid-area: B;
+      width: 100%; }
+    .block_price-list_block_img_3 {
+      grid-area: C;
+      width: 100%; }
+    .block_price-list_block_img_4 {
+      grid-area: D;
+      width: 100%; }
+    .block_price-list_block_img_5 {
+      grid-area: E;
+      width: 100%; }
+    .block_price-list_block_img img {
+      display: block;
+      margin: auto;
+      max-height: 300px; }
+    .block_price-list_block .img_grid {
+      display: grid;
+      grid-template-rows: repeat(3, 120px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "A . B" ". C ." "D . E"; }
+      .block_price-list_block .img_grid img {
+        width: 100%;
+        height: 100%; }
+    .block_price-list_block_left, .block_price-list_block_right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; }
+    .block_price-list_block_left {
+      padding: 10px 30px; }
+    .block_price-list_block_btn button {
+      min-height: 50px;
+      width: 200px;
+      background: #4f1010;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none; }
+  .block_price-list .hot_img_left {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 20px;
+    height: 20px; }
+  .block_price-list .hot_img_right {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 20px;
+    height: 20px; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_navigation {
+  background: #1C1C1C;
+  height: 100px;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  padding: 0 20px; }
+  .block_navigation .band {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .block_navigation_left, .block_navigation_right {
+    width: 50%;
+    display: flex; }
+  .block_navigation_left {
+    justify-content: flex-start; }
+    .block_navigation_left_logo img {
+      width: 50px;
+      height: 50px; }
+    .block_navigation_left_text {
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-left: 20px; }
+  .block_navigation_right {
+    justify-content: flex-end; }
+    .block_navigation_right_text {
+      text-align: right;
+      margin-right: 20px;
+      color: white; }
+    .block_navigation_right_btn button {
+      background: #4f1010;
+      border: none;
+      outline: none;
+      width: 200px;
+      min-height: 50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_about-team {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: white; }
+  .block_about-team_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px; }
+  .block_about-team_blocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .block_about-team_blocks_line {
+      width: 100%;
+      display: flex;
+      justify-content: row; }
+      .block_about-team_blocks_line:not(:last-child) {
+        margin-bottom: 20px; }
+  .block_about-team_block {
+    background: #F1F1F1;
+    width: 33%;
+    padding: 10px 20px;
+    box-sizing: border-box; }
+    .block_about-team_block_title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center; }
+    .block_about-team_block_img {
+      width: 150px;
+      height: 150px;
+      margin: auto; }
+      .block_about-team_block_img img {
+        display: block;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover; }
+    .block_about-team_block_text {
+      font-size: 14px;
+      font-weight: 400; }
+      .block_about-team_block_text span {
+        font-weight: 700; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_clients {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #F1F1F1; }
+  .block_clients_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px; }
+  .block_clients_blocks {
+    width: 100%;
+    display: flex; }
+  .block_clients_block {
+    width: 25%; }
+    .block_clients_block_img {
+      width: 100%; }
+      .block_clients_block_img img {
+        width: 100%; }
+
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.footer {
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .footer .band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer_left, .footer_right {
+    width: 50%; }
+  .footer_left_logo {
+    display: flex; }
+    .footer_left_logo img {
+      width: 50px;
+      height: 50px;
+      display: block; }
+  .footer_left_text {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px; }
+  .footer_left_contacts {
+    display: flex;
+    margin-top: 20px; }
+    .footer_left_contacts_email a, .footer_left_contacts_phone a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: left; }
+      .footer_left_contacts_email a span, .footer_left_contacts_phone a span {
+        font-size: 18px;
+        color: #4f1010;
+        display: block;
+        margin-top: 10px; }
+  .footer_right_data {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0; }
+    .footer_right_data div {
+      font-size: 15px;
+      font-weight: 400;
+      color: white;
+      text-align: right; }
+  .footer_right_btn {
+    margin-right: 0; }
+    .footer_right_btn button {
+      display: block;
+      margin-right: 0;
+      margin-left: auto;
+      background: #4f1010;
+      border: none;
+      outline: none;
+      width: 200px;
+      min-height: 50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 20px; }
+
+@media (max-width: 1200px) {
+  .band {
+    width: 90%; } }
+
+/*# sourceMappingURL=style.css.map */

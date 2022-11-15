@@ -1,0 +1,26 @@
+@import "../vars";
+.block_clients{
+  padding-bottom: $padding-main;
+  padding-top: $padding-main;
+  background: #F1F1F1;
+
+  &_title{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  &_blocks{
+    width: 100%;
+    display: flex;
+  }
+  &_block{
+    width:25%;
+    &_img{
+      width: 100%;
+      img{width: 100%;}
+    }
+  }
+}

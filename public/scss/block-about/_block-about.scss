@@ -1,0 +1,32 @@
+@import "../vars";
+.block_about{
+  background: white;
+
+  .band{display: flex;justify-content: center;align-items: center;}
+
+  &_left, &_right{
+    width: 50%;
+    height: 100%;
+  }
+
+  &_right{display: flex;flex-direction: column;align-items: center;}
+
+  &_title{
+    float: left;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &_description{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+.band{z-index: 100;}

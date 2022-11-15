@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Отступы */
+/* Цвета */
+/* Шрифты */
+/* Пути к файлам */
+/* Прочее */
+.block_clients {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  background: #F1F1F1; }
+  .block_clients_blocks {
+    width: 100%; }
+  .block_clients_block {
+    width: 25%; }
+    .block_clients_block_img {
+      width: 100%; }
+      .block_clients_block_img img {
+        width: 100%;
+        height: 100%; }
+
+/*# sourceMappingURL=clients.css.map */

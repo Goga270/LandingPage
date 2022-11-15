@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2200"
+   height="1420"
+   viewBox="0 0 582.08333 375.70911"
+   version="1.1"
+   id="svg85966"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="goash-newLogo.svg"
+   inkscape:export-filename="/home/user/Документы/goash-newLogo.png"
+   inkscape:export-xdpi="100.09"
+   inkscape:export-ydpi="100.09"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview85968"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="1920px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.28774551"
+     inkscape:cx="642.92923"
+     inkscape:cy="880.98681"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="114.19648,35.020304"
+       orientation="0,-1"
+       id="guide314162" />
+    <sodipodi:guide
+       position="150.33901,35.020304"
+       orientation="1,0"
+       id="guide314166" />
+    <sodipodi:guide
+       position="114.69986,44.603889"
+       orientation="1,0"
+       id="guide314168" />
+    <sodipodi:guide
+       position="430.09829,35.020304"
+       orientation="1,0"
+       id="guide314170" />
+    <sodipodi:guide
+       position="467.10836,35.020304"
+       orientation="1,0"
+       id="guide314172" />
+  </sodipodi:namedview>
+  <defs
+     id="defs85963">
+    <rect
+       x="795.92548"
+       y="917.4704"
+       width="73.480049"
+       height="78.334724"
+       id="rect152518" />
+    <rect
+       x="763.6944"
+       y="176.97725"
+       width="814.58295"
+       height="1745.373"
+       id="rect101932" />
+    <rect
+       x="763.6944"
+       y="176.97725"
+       width="778.8761"
+       height="874.21838"
+       id="rect101932-3" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.40740282,0,0,0.58218981,-340.80813,-172.06742)"
+       id="text101930"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:724.364px;line-height:1.25;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';white-space:pre;shape-inside:url(#rect101932);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="763.69531"
+         y="818.79861"
+         id="tspan314194">{</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.40740282,0,0,0.58218981,123.24499,-172.07129)"
+       id="text101930-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:724.364px;line-height:1.25;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';white-space:pre;shape-inside:url(#rect101932-3);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="763.69531"
+         y="818.79861"
+         id="tspan314196">}</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text152516"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect152518);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:156.663px;line-height:1.2;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';letter-spacing:1.32292px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.335706"
+       x="286.01428"
+       y="157.24577"
+       id="text164436"
+       transform="scale(1.0320887,0.96890898)"><tspan
+         id="tspan164434"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:156.663px;font-family:monospace;-inkscape-font-specification:'monospace Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.335706"
+         x="286.01428"
+         y="157.24577"
+         sodipodi:role="line">Go</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:156.663px;font-family:monospace;-inkscape-font-specification:'monospace Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.335706"
+         x="286.67575"
+         y="345.44244"
+         id="tspan164438"
+         sodipodi:role="line">Ash</tspan></text>
+  </g>
+</svg>

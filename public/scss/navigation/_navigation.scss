@@ -1,0 +1,50 @@
+@import "../vars";
+.block_navigation{
+  background: #1C1C1C;
+  height: 100px;
+  box-shadow: $shadow;
+  padding: 0 20px;
+
+  .band{display: flex;align-items: center;justify-content: space-between;}
+
+  &_left, &_right{
+    width: 50%;display: flex;
+  }
+  &_left{
+    justify-content: flex-start;
+    &_logo {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    &_text{
+      font-size: 24px;
+      font-weight: 700;
+      color: $main-color;
+      display: flex;align-items: center;
+      margin-left: 20px;
+    }
+  }
+  &_right{
+    justify-content: flex-end;
+    &_text{
+      text-align: right;
+      margin-right: 20px;
+      color: $main-color;
+    }
+    &_btn{
+      button{
+        background: #4f1010;
+        border: none;outline: none;
+        width: 200px;
+        min-height: 50px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+
+
+}

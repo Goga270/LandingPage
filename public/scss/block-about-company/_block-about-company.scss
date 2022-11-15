@@ -1,0 +1,44 @@
+@import "../vars";
+.block_about_company{
+  background-size: 100%;
+  padding-top: $padding-main;
+  padding-bottom: $padding-main;
+  position: relative;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url("../images/background-about-block.jpg");
+  background-repeat: no-repeat;
+
+  &_title{
+    color: $second-color;
+    width: 100%;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    span{margin-top: 10px;font-size: 28px;color: white;}
+  }
+  &_inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    &_name, &_phone, &_btn{
+      width: 33%;height: 3rem;
+      input{width: 100%;height: 100%;background: white;color: $main-color;box-sizing: border-box;border: none;outline: none;padding: 10px;}
+      button{background: $second-color;color: white;width: 100%;height: 100%; border: none;font-weight: 700;}
+    }
+  }
+  &_blocks{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+  }
+  &_block{
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 30px 15px;
+    max-width: 200px;
+    text-align: center;
+    &_img{
+      img{width: 50px;height: 50px;display: block;margin: auto;margin-bottom: 20px;}}
+  }
+}
